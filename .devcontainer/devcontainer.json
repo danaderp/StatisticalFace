@@ -1,0 +1,23 @@
+//This version is compatible with semeru T5 nvidia libraries
+//Update your folders mapping accordingly to your project
+{
+	"name": "StatisticalFace 1.0",
+	"build": { 
+		"context": "..",
+		"dockerfile": "Dockerfile",
+		"args": {
+			"NODE_VERSION": "none"
+		}
+	},
+	"mounts": [ 
+		"source=/nfs/semeru/projects/statisticalface/,target=/workspaces/code-rationales/data,type=bind,consistency=cached",
+		"source=/nfs/semeru/semeru_datasets/,target=/workspaces/code-rationales/semeru-datasets,type=bind,consistency=cached"
+
+	],
+    "remoteEnv": {
+        //"MY_PROJECT_NAME": "The-container-name-here" //NOTE: make this name the same as the folder containing the repo
+        "MY_PROJECT_NAME": "code-rationales"
+    },
+	"runArgs": ["--gpus", "all", "-e", "GRANT_SUDO=yes","--name", "${localWorkspaceFolderBasename}-danaderp", "--add-host", "host.docker.internal:host-gateway"]	
+
+}
