@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "StatisticalFace"
+  site-url: "https://danaderp.github.io/StatisticalFace"
+  description: "Statistical Tools for Empirical Analyses in Software Engineering"
+  repo-branch: main
+  repo-url: "https://github.com/danaderp/StatisticalFace"
