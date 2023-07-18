@@ -6,6 +6,7 @@ nbdev==2.3.12
 omegaconf==2.0.6
 pandas
 scipy
+numpy
 datasets >= 1.8.0
 sentencepiece != 0.1.92
 protobuf
