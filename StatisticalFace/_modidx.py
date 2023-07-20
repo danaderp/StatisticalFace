@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://danaderp.github.io',
                 'git_url': 'https://github.com/danaderp/StatisticalFace',
                 'lib_path': 'StatisticalFace'},
-  'syms': {'StatisticalFace.core': {'StatisticalFace.core.foo': ('core.html#foo', 'StatisticalFace/core.py')}}}
+  'syms': { 'StatisticalFace.core': {'StatisticalFace.core.foo': ('core.html#foo', 'StatisticalFace/core.py')},
+            'StatisticalFace.sampling': { 'StatisticalFace.sampling.bootstrapping': ( 'sampling.html#bootstrapping',
+                                                                                      'StatisticalFace/sampling.py'),
+                                          'StatisticalFace.sampling.confidence_intervals_large_samples': ( 'sampling.html#confidence_intervals_large_samples',
+                                                                                                           'StatisticalFace/sampling.py'),
+                                          'StatisticalFace.sampling.standard_error': ( 'sampling.html#standard_error',
+                                                                                       'StatisticalFace/sampling.py')}}}
