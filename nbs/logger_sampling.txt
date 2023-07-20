@@ -1,0 +1,10 @@
+2023-07-20 01:43:51,809 : INFO : Empirical Mean: 3.0539065165472534
+2023-07-20 01:43:51,809 : INFO : Bootstrapped Mean: 1.33
+2023-07-20 01:49:06,925 : INFO : Empirical Estimate: 1.0
+2023-07-20 01:49:06,925 : INFO : Bootstrapped Estimate: 1.0
+2023-07-20 01:49:46,330 : INFO : Empirical Estimate: 3.0539065165472534
+2023-07-20 01:49:46,330 : INFO : Bootstrapped Estimate: 3.0523848515864893
+2023-07-20 02:04:27,730 : INFO : Empirical Estimate: 1.0
+2023-07-20 02:04:27,730 : INFO : Bootstrapped Estimate: 1.0
+2023-07-20 02:05:18,804 : INFO : Empirical Estimate: 3.0539065165472534
+2023-07-20 02:05:18,804 : INFO : Bootstrapped Estimate: 3.049542135789833
