@@ -3,6 +3,15 @@
 # %% auto 0
 __all__ = ['bootstrapping', 'confidence_intervals_large_samples', 'standard_error']
 
+# %% ../nbs/00_sampling.ipynb 3
+import logging
+logging.basicConfig(
+    filename="logger_sampling.txt",
+    filemode='a',
+    format='%(asctime)s : %(levelname)s : %(message)s', 
+    level=logging.INFO
+    )
+
 # %% ../nbs/00_sampling.ipynb 4
 import numpy as np
 from statistics import NormalDist
